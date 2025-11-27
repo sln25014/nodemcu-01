@@ -8,4 +8,8 @@ Vi börjar att installera Arduinos IDE eller Integrated Development Environment 
 
 [Länk för att installera](https://www.arduino.cc/en/software/#ide)
 
-Installera versionen för ditt operativsystem och ändra ingenting i installationsprocessen.
+Installera versionen för ditt operativsystem och ändra ingenting i installationsprocessen och godkänn eventuella popups.
+
+## Inställningar
+
+```https://espressif.github.io/arduino-esp32/package_esp32_index.json```
