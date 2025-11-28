@@ -18,7 +18,7 @@ Gå in på **Preferences** under fliken **File** (Se bild)
 
 För att sedan klistra in följande:
 
-**http://arduino.esp8266.com/stable/package_esp8266com_index.json**
+`http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
 i rutan **Additional boards manager URLs** och tryck sedan på **OK**
 
