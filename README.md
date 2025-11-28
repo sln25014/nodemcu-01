@@ -12,31 +12,31 @@ Installera versionen för ditt operativsystem och ändra ingenting i installatio
 
 ## Inställningar
 
-Gå in på `Preferences` under fliken `File` (Se bild)
+Gå in på **Preferences** under fliken **File** (Se bild)
 
 ![bild](/bilder/Preferences.png)
 
 För att sedan klistra in följande:
 
-```http://arduino.esp8266.com/stable/package_esp8266com_index.json```
+**http://arduino.esp8266.com/stable/package_esp8266com_index.json**
 
-i rutan `Additional boards manager URLs` och tryck sedan på `OK`
+i rutan **Additional boards manager URLs** och tryck sedan på **OK**
 
-Under fliken `BOARDS MANAGER` i den vänstra menyn sök sedan på `esp8266` och ladda ner följande 
+Under fliken **BOARDS MANAGER** i den vänstra menyn sök sedan på **esp8266** och ladda ner följande 
 
 ![esp8266](/bilder/8266.png)
 
-När det är klart gå till `Board` under fliken `Tools` (se bild)
+När det är klart gå till **Board** under fliken **Tools** (se bild)
 
 ![Boards](/bilder/boards.png)
 
-och sedan under `esp8266` välj `Generic ESP8266 Module`
+och sedan under **esp8266** välj **Generic ESP8266 Module**
 
 ## Skicka kod till mikroprocessor
 
-Börja med att koppla in din mikroprocessor till datorn och under fliken `Tools` se till att rätt `Port` är vald.
+Börja med att koppla in din mikroprocessor till datorn och under fliken **Tools** se till att rätt **Port** är vald.
 
-Under gå till `File>Examples>Basics` och välj `Blink` ett nytt fönster kommer öppnas med kod som ser ut såhär:
+Under gå till **File>Examples>Basics** och välj **Blink** ett nytt fönster kommer öppnas med kod som ser ut såhär:
 
 ```C++
 /*
@@ -79,6 +79,6 @@ void loop() {
 
 ```
 
-Klicka sedan på knappen högst upp med en pil till höger som säger `Upload` och låt den tänka ett litet tag.
+Klicka sedan på knappen högst upp med en pil till höger som säger **Upload** och låt den tänka ett litet tag.
 
 Och då var det klart, ett program som får en mikroprocessor att blinka skapat och skickat.
